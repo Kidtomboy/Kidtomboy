@@ -2,6 +2,10 @@
 
 [![Personal Header Photo](https://i.imgur.com/wcfQBWw.png)](https://linktr.ee/Kidtomboy)
 
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+Everyone;+I'am+Kidtomboy;" />
+</h1>
+
 ## 🙋🏻‍♂️ Hi 👋🏻 My Name Is Do Dinh Hieu!
 
 * My nickname is Cherry, what a beautiful name, right?
@@ -32,6 +36,7 @@
 # 🧩 GitHub Badges:
 ![GitHub Badges](https://github-profile-trophy.vercel.app/?username=Kidtomboy&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
+
 ## 📊 GitHub Stats:
 ![Cherry GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 
@@ -39,12 +44,13 @@
 
 ![Cherry GitHub Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+
 ### 📌 Top Contributed Repo:
 ![Top Repo](https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
 
 ---
-### ⭐ Number of viewers:
-![Numbers Viewers](https://visitcount.itsvg.in/api?id=Kidtomboy&icon=10&color=13)
+### ⭐ Number of viewers
+![Visitor Count](https://komarev.com/ghpvc/?username=Kidtomboy&color=blue)
 
 ### 🥕 Watch the snake eat GitHub Contributions:
 ![Snake Gif](https://github.com/Kidtomboy/Kidtomboy/blob/output/github-contribution-grid-snake-dark.svg)
