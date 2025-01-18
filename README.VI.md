@@ -44,7 +44,7 @@
     <td style="width: 50%; padding: 10px;">
       <h3>Frameworks và Thư viện yêu thích:</h3>
       <img src="https://skillicons.dev/icons?i=nodejs,discordjs,nextjs,bootstrap,dotnet" alt="Node.js, Discord.js, Next.js, Bootstrap, .NET" /><br>
-      <img src="https://skillicons.dev/icons?i=css,lua" alt="CSS, Lua" />
+      <img src="https://skillicons.dev/icons?i=css,lua,react,vue,angular" alt="CSS, Lua, React, Vue.js,Angular" class="icon" />
     </td>
   </tr>
   <tr>
