@@ -1,69 +1,69 @@
-<h1 align="center" style="color: #417dff; font-size: 30px;">🍒 Welcome to My GitHub Profile</h1>
+<h1 align="center" style="color: #417dff; font-size: 30px;">🍒 Chào mừng đến với Hồ sơ GitHub của tôi</h1>
 
-[![Personal Cover Image](https://i.imgur.com/8GleZgS.jpeg)](https://bento.me/Kidtomboy)
+[![Ảnh bìa cá nhân](https://i.imgur.com/8GleZgS.jpeg)](https://bento.me/Kidtomboy)
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Pacifico&size=35&center=true&vCenter=true&width=1150&height=70&duration=4000&lines=Hello everyone ^^ Welcome to my GitHub profile; I am Kidtomboy ^^ My full name is Đỗ Đình Hiếu ; " />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Pacifico&size=35&center=true&vCenter=true&width=1150&height=70&duration=4000&lines=Xin chào mọi người ^^ Chào mừng đến với hồ sơ GitHub của tôi; Tôi là Kidtomboy ^^ Tên đầy đủ của tôi là Đỗ Đình Hiếu ; " />
 </h1>
 
 ---
 
-<p style="font-size: 21px; font-weight: bold; color: #FF1493; text-align: center;"> My nickname is Cherry, a name that is both sweet and full of vitality, isn't it?</p>
+<p style="font-size: 21px; font-weight: bold; color: #FF1493; text-align: center;"> Biệt danh của tôi là Cherry, một cái tên vừa ngọt ngào vừa đầy sức sống, phải không nhỉ?</p>
 
-<h3 style="color: #FF0080;">🔰 Software Engineer, Programmer, Cybersecurity Researcher.</h3>
+<h3 style="color: #FF0080;">🔰 Kỹ sư phần mềm, Lập trình viên, Nhà nghiên cứu An ninh mạng.</h3>
 
 <ul style="color: #E9FF23;">
-  <li>🌍 Currently, I am living and working in <span style="color: #FFFFFF;">Hai Phong - Vietnam</span>, where I find endless inspiration for creative work.</li>
-  <li>✉️ You can contact me at <a href="mailto:iamkidtomboyreal@gmail.com" style="color: #0080FF;">iamkidtomboyreal@gmail.com</a> for collaboration, exchanges, or just a chat.</li>
-  <li>🚀 Currently, I am leveraging remote learning and working to explore new and creative things.</li>
-  <li>🧠 My favorite programming languages are: <strong>Python, JavaScript, TypeScript, C</strong>, and I always strive to improve my skills.</li>
-  <li>🧩 I am always open to community projects where I can contribute and learn from other co-creators.</li>
+  <li>🌍 Hiện tôi đang sinh sống và làm việc tại <span style="color: #FFFFFF;">Hải Phòng - Việt Nam</span>, nơi tôi tìm thấy nguồn cảm hứng vô tận cho công việc sáng tạo.</li>
+  <li>✉️ Bạn có thể liên hệ với tôi qua <a href="mailto:iamkidtomboyreal@gmail.com" style="color: #0080FF;">iamkidtomboyreal@gmail.com</a> để trao đổi, hợp tác hoặc đơn giản chỉ là trò chuyện.</li>
+  <li>🚀 Hiện tại, tôi đang tận dụng thời gian học tập và làm việc từ xa để khám phá nhiều điều mới mẻ và sáng tạo.</li>
+  <li>🧠 Các ngôn ngữ lập trình yêu thích của tôi là: <strong>Python, JavaScript, TypeScript, C</strong>, và tôi luôn tìm cách để phát triển kỹ năng của mình.</li>
+  <li>🧩 Tôi luôn mở cửa cho các dự án cộng đồng, nơi tôi có thể đóng góp và học hỏi từ những người đồng sáng tạo khác.</li>
 </ul>
 
-<h3 style="color: #FF0080;">⭐ To me, GitHub is not just a platform but a part of the journey!</h3>
+<h3 style="color: #FF0080;">⭐ Với tôi, GitHub không chỉ là một nền tảng, mà là một phần của hành trình!</h3>
 
-<ul style="color:#00FFFF;">
-  <li>🎯 My goal is to continuously contribute the best values to the community on GitHub.</li>
-  <li>💪 I always believe in what I think and do, and I hope you'll feel the same way!</li>
-  <li>🗣️ My words always go hand in hand with action, and I promise I won't let you down.</li>
-  <li>📝 My blog <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">blog</a> is where you'll find my thoughts and ideas throughout my development process.</li>
-  <li>📌 Everything you need is on my GitHub, where I document all my efforts and achievements.</li>
+<ul style="color:# 00FFFF;">
+  <li>🎯 Mục tiêu của tôi là không ngừng đóng góp những giá trị tốt nhất cho cộng đồng trên GitHub.</li>
+  <li>💪 Tôi luôn tự tin vào những gì mình nghĩ và làm, và tôi tin rằng bạn cũng sẽ cảm nhận được điều đó!</li>
+  <li>🗣️ Những lời tôi nói luôn đi đôi với hành động, và tôi cam kết rằng tôi không bao giờ làm bạn thất vọng.</li>
+  <li>📝 Blog của tôi <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">blog</a> sẽ là nơi bạn tìm thấy những suy nghĩ và ý tưởng của tôi trong suốt quá trình phát triển.</li>
+  <li>📌 Mọi thứ bạn cần đều có tại GitHub của tôi, nơi tôi ghi lại tất cả những nỗ lực và thành tựu của mình.</li>
 </ul>
 
 ---
 
-<h3 style="color: #FF5733;">💻 Favorite Technologies:</h3>
+<h3 style="color: #FF5733;">💻 Công nghệ yêu thích:</h3>
 
 <table style="width: 80%; table-layout: fixed; margin: 0 auto;">
   <tr>
     <td style="width: 50%; padding: 10px;">
-      <h3>Favorite Programming Languages:</h3>
+      <h3>Ngôn ngữ lập trình yêu thích:</h3>
       <img src="https://skillicons.dev/icons?i=c,cs,cpp,js,ts" alt="C, C#, C++, JavaScript, TypeScript" /><br>
       <img src="https://skillicons.dev/icons?i=java,python,php,bash,html" alt="Java, Python, PHP, Bash, HTML" />
     </td>
     <td style="width: 50%; padding: 10px;">
-      <h3>Favorite Frameworks and Libraries:</h3>
+      <h3>Frameworks và Library yêu thích:</h3>
       <img src="https://skillicons.dev/icons?i=nodejs,discordjs,nextjs,bootstrap,dotnet" alt="Node.js, Discord.js, Next.js, Bootstrap, .NET" /><br>
       <img src="https://skillicons.dev/icons?i=css,lua" alt="CSS, Lua" />
     </td>
   </tr>
   <tr>
     <td style="width: 50%; padding: 10px;">
-      <h3>Tools and Applications I Use:</h3>
+      <h3>Công cụ và Ứng dụng tôi dùng:</h3>
       <img src="https://skillicons.dev/icons?i=github,git,npm,docker,yarn" alt="Git, GitHub, NPM, Yarn, Docker" />
     </td>
     <td style="width: 50%; padding: 10px;">
-      <h3>Preferred Databases:</h3>
+      <h3>Cơ sở dữ liệu tôi thích nhất:</h3>
       <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite" alt="MongoDB, MySQL, SQLite" />
     </td>
   </tr>
   <tr>
     <td style="width: 50%; padding: 10px;">
-      <h3>Favorite Development Tools:</h3>
+      <h3>Công cụ lập trình yêu thích:</h3>
       <img src="https://skillicons.dev/icons?i=vscode,neovim,sublime" alt="VS Code, Neovim, Sublime Text" />
     </td>
     <td style="width: 50%; padding: 10px;">
-      <h3>Operating Systems I Use:</h3>
+      <h3>Hệ điều hành mà tôi sử dụng:</h3>
       <img src="https://skillicons.dev/icons?i=windows,kali,linux,ubuntu,arch" alt="Windows, Kali Linux, Linux, Ubuntu, Arch Linux" />
     </td>
   </tr>
@@ -71,7 +71,7 @@
 
 ---
 
-<h3 style="color: #FF69B4;">🌐 Social Media I Use:</h3>
+<h3 style="color: #FF69B4;">🌐 Mạng xã hội tôi sử dụng:</h3>
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%;">
   <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
@@ -115,24 +115,24 @@
 <br>
 
 <p style="color: #4C00FF; display: flex; align-items: center;">
-  <img src="https://img.icons8.com/emoji/20/000000/warning-emoji.png" alt="Warning" style="margin-right: 5px;">
-  P/s: There are a few platforms I prefer not to link here; too many links can get confusing! HAHA
+  <img src="https://img.icons8.com/emoji/20/000000/warning-emoji.png" alt="Cảnh báo" style="margin-right: 5px;">
+  P/s: Còn một vài nền tảng mình không muốn gắn lên đây, nhiều nền tảng quá cũng loạn! HAHA
 </p>
 
 ---
 
-<h3 style="color: #FF5100;">🥇 GitHub Achievements:</h3>
+<h3 style="color: #FF5100;">🥇 Huy hiệu GitHub:</h3>
 
 <div style="text-align: center;">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kidtomboy&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Achievements" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Kidtomboy&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="Huy hiệu GitHub" />
 </div>
 
 ---
 
-<h3 style="color: #FF69B4;">📊 GitHub Statistics:</h3>
+<h3 style="color: #FF69B4;">📊 Thống kê GitHub:</h3>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- GitHub Statistics -->
+  <!-- Thống kê GitHub -->
   <div align="left" style="flex: 1; margin-right: 20px;">
     <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" /><br/>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kidtomboy&theme=tokyonight&hide_border=false" /><br/>
@@ -141,7 +141,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It works … on my machine;It’s not a bug ;It’s an undocumented feature;" />
   </div>
 
-  <!-- Other Stats -->
+  <!-- Các chỉ số -->
   <div align="right" style="flex: 1;">
     <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/fe052628ca64e6723e90864b8664cd0d5ec0bb01/metrics_output/metrics.svg" />
   </div>
@@ -149,27 +149,27 @@
 
 ---
 
-<h3 style="color: #E9FF23;">👀 Views Count:</h3>
+<h3 style="color: #E9FF23;">👀 Số lượt xem:</h3>
 
 <p style="font-size: 16px; color: #9F00FF;">
-  Thank you for visiting my profile! Each view is not just a number, but an encouragement for me to keep creating and learning. I hope what I share brings value to you. 💛
+  Cảm ơn bạn đã ghé thăm hồ sơ của mình! Từng lượt xem không chỉ là con số, mà còn là sự động viên để mình tiếp tục sáng tạo và học hỏi. Hy vọng những gì mình chia sẻ có thể mang lại giá trị cho bạn. 💛
 </p>
 
-![Views Count](https://komarev.com/ghpvc/?username=Kidtomboy&color=blue)
+![Số lượt xem](https://komarev.com/ghpvc/?username=Kidtomboy&color=blue)
 
-<h3 style="color: #0084ff;">🌸 Watch the Snake Eating GitHub Contributions:</h3>
+<h3 style="color: #0084ff;">🌸 Xem rắn ăn Đóng góp GitHub:</h3>
 
 <p style="font-size: 16px; color: #00FF00;">
-  Do you see this cute snake? It’s a fun way to display my contributions on GitHub. Each square that fills up represents a drop of sweat in my journey of learning and development. If you also have contributions, feel free to share your GitHub link, and I'd be happy to visit! 🌟
+  Bạn có thấy chú rắn dễ thương này không? Đây là cách thú vị để hiển thị đóng góp của mình trên GitHub. Từng ô vuông lấp đầy là từng giọt mồ hôi trong hành trình học tập và phát triển. Nếu bạn cũng có những đóng góp, hãy để lại liên kết GitHub của bạn, mình rất sẵn lòng ghé thăm! 🌟
 </p>
 
 ![Snake Gif](https://github.com/Kidtomboy/Kidtomboy/blob/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
-<h3 style="color: #FF1493;">💖 Support Me:</h3>
+<h3 style="color: #FF1493;">💖 Hỗ trợ tôi:</h3>
 <p style="font-size: 16px; color: #E9FF23;">
-  If you like what I do and would like to support me, you can donate through the following platforms:
+  Nếu bạn yêu thích những gì tôi đang làm và muốn giúp đỡ, bạn có thể quyên góp cho tôi qua các nền tảng sau:
 </p>
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
