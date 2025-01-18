@@ -3,7 +3,7 @@
 [![Personal Cover Image](https://i.imgur.com/8GleZgS.jpeg)](https://bento.me/Kidtomboy)
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Pacifico&size=35&center=true&vCenter=true&width=1150&height=70&duration=4000&lines=Hello everyone ^^ Welcome to my GitHub profile; I am Kidtomboy ^^ My full name is Đỗ Đình Hiếu ; " />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=4000&size=35&pause=1000&center=true&vCenter=true&width=1000&height=70&lines=Hello+everyone+%5E%5E+Welcome+to+my+GitHub+profile;I+am+Kidtomboy+%5E%5E+My+full+name+is+Do+Dinh+Hieu" alt="Typing SVG" />
 </h1>
 
 ---
@@ -73,44 +73,50 @@
 
 <h3 style="color: #FF69B4;">🌐 Social Media I Use:</h3>
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%;">
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://discord.gg/cM8eE93S7M"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"></a>
-    <a href="https://facebook.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://youtube.com/@Kidtomboy"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" alt="YouTube"></a>
-    <a href="https://instagram.com/Kidtomboy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://x.com/Kidtomboy"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a>
-    <a href="https://twitch.tv/Kidtomboy"><img src="https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white" alt="Twitch"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://linkedin.com/in/Kidtomboy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://reddit.com/user/Kidtomboy"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white" alt="Reddit"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://pinterest.com/Kidtomboy"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white" alt="Pinterest"></a>
-    <a href="https://tiktok.com/@Kidtomboy"><img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://steamcommunity.com/id/Kidtomboy"><img src="https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white" alt="Steam"></a>
-    <a href="https://linktr.ee/Kidtomboy"><img src="https://img.shields.io/badge/Linktree-%231A5B8B.svg?logo=linktree&logoColor=white" alt="Linktree"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://bento.me/Kidtomboy"><img src="https://img.shields.io/badge/Bento-%23FF5B00.svg?logo=bento&logoColor=white" alt="Bento"></a>
-    <a href="https://t.me/Kidtomboy"><img src="https://img.shields.io/badge/Telegram-%23007BFF.svg?logo=telegram&logoColor=white" alt="Telegram"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://wa.me/1234567890"><img src="https://img.shields.io/badge/WhatsApp-%2304B400.svg?logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
-    <a href="http://open.spotify.com/user/31wbafanj3s3hxdxlaiyezqrbgei"><img src="https://img.shields.io/badge/Spotify-%231DB954.svg?logo=spotify&logoColor=white" alt="Spotify"></a>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-    <a href="https://soundcloud.com/kidtomboy"><img src="https://img.shields.io/badge/SoundCloud-%23FF3300.svg?logo=soundcloud&logoColor=white" alt="SoundCloud"></a>
-    <a href="https://kidtomboy.blogspot.com/"><img src="https://img.shields.io/badge/Blogger-%23FF5722.svg?logo=blogger&logoColor=white" alt="Blogger"></a>
-  </div>
-</div>
+<table style="width: 100%; table-layout: fixed; text-align: center;">
+  <tr>
+    <td style="padding: 5px;">
+      <a href="https://discord.gg/cM8eE93S7M"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"></a><br>
+      <a href="https://facebook.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://youtube.com/@Kidtomboy"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" alt="YouTube"></a><br>
+      <a href="https://instagram.com/Kidtomboy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://x.com/Kidtomboy"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a><br>
+      <a href="https://twitch.tv/Kidtomboy"><img src="https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white" alt="Twitch"></a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 5px;">
+      <a href="https://linkedin.com/in/Kidtomboy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=Linkedin&logoColor=white" alt="LinkedIn"></a><br>
+      <a href="https://reddit.com/user/Kidtomboy"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white" alt="Reddit"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://pinterest.com/Kidtomboy"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white" alt="Pinterest"></a><br>
+      <a href="https://tiktok.com/@Kidtomboy"><img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://steamcommunity.com/id/Kidtomboy"><img src="https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white" alt="Steam"></a><br>
+      <a href="https://linktr.ee/Kidtomboy"><img src="https://img.shields.io/badge/Linktree-%231A5B8B.svg?logo=linktree&logoColor=white" alt="Linktree"></a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 5px;">
+      <a href="https://bento.me/Kidtomboy"><img src="https://img.shields.io/badge/Bento-%23FF5B00.svg?logo=bento&logoColor=white" alt="Bento"></a><br>
+      <a href="https://t.me/Kidtomboy"><img src="https://img.shields.io/badge/Telegram-%23007BFF.svg?logo=telegram&logoColor=white" alt="Telegram"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://wa.me/0387831869"><img src="https://img.shields.io/badge/WhatsApp-%2304B400.svg?logo=whatsapp&logoColor=white" alt="WhatsApp"></a><br>
+      <a href="http://open.spotify.com/user/31wbafanj3s3hxdxlaiyezqrbgei"><img src="https://img.shields.io/badge/Spotify-%231DB954.svg?logo=spotify&logoColor=white" alt="Spotify"></a>
+    </td>
+    <td style="padding: 5px;">
+      <a href="https://soundcloud.com/kidtomboy"><img src="https://img.shields.io/badge/SoundCloud-%23FF3300.svg?logo=soundcloud&logoColor=white" alt="SoundCloud"></a><br>
+      <a href="https://kidtomboy.blogspot.com/"><img src="https://img.shields.io/badge/Blogger-%23FF5722.svg?logo=blogger&logoColor=white" alt="Blogger"></a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -131,21 +137,22 @@
 
 <h3 style="color: #FF69B4;">📊 GitHub Statistics:</h3>
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- GitHub Statistics -->
-  <div align="left" style="flex: 1; margin-right: 20px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" /><br/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kidtomboy&theme=tokyonight&hide_border=false" /><br/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" /><br/>
-    <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" /><br/>
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It works … on my machine;It’s not a bug ;It’s an undocumented feature;" />
-  </div>
-
-  <!-- Other Stats -->
-  <div align="right" style="flex: 1;">
-    <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/fe052628ca64e6723e90864b8664cd0d5ec0bb01/metrics_output/metrics.svg" />
-  </div>
-</div>
+<table style="width: 100%; table-layout: fixed; text-align: center;">
+  <tr>
+    <td style="width: 50%; padding: 10px;">
+      <!-- GitHub Statistics (left part) -->
+      <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" style="width: 100%; max-width: 400px;" /><br/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kidtomboy&theme=tokyonight&hide_border=false" style="width: 100%; max-width: 400px;" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" style="width: 100%; max-width: 400px;" /><br/>
+      <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" style="width: 100%; max-width: 400px;" /><br/>
+      <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It+works+…+on+my+machine;+It’s+not+a+bug;+It’s+an+undocumented+feature;" style="width: 100%; max-width: 400px;" />
+    </td>
+    <td style="width: 50%; padding: 10px;">
+      <!-- Other Stats (right part) -->
+      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/fe052628ca64e6723e90864b8664cd0d5ec0bb01/metrics_output/metrics.svg" style="width: 100%; max-width: 400px;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -168,37 +175,41 @@
 ---
 
 <h3 style="color: #FF1493;">💖 Support Me:</h3>
+
 <p style="font-size: 16px; color: #E9FF23;">
   If you like what I do and would like to support me, you can donate through the following platforms:
 </p>
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <div style="flex: 0 0 48%; text-align: center;">
-    <a href="https://streamlabs.com/kidtomboy">
-      <img src="https://img.shields.io/badge/Donate-Streamlabs-%2300C2A3?logo=streamlabs&logoColor=white" alt="Donate via Streamlabs">
-    </a><br>
-    <a href="https://www.paypal.com/">
-      <img src="https://img.shields.io/badge/Donate-PayPal-%231877F2?logo=paypal&logoColor=white" alt="Donate via PayPal">
-    </a><br>
-    <a href="https://www.patreon.com/">
-      <img src="https://img.shields.io/badge/Donate-Patreon-%23FF424D?logo=patreon&logoColor=white" alt="Donate via Patreon">
-    </a><br>
-    <a href="https://ko-fi.com/">
-      <img src="https://img.shields.io/badge/Donate-Ko--fi-%23FF5D5B?logo=kofi&logoColor=white" alt="Donate via Ko-fi">
-    </a>
-  </div>
-
-  <div style="flex: 0 0 48%; text-align: center;">
-    <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/image_Kidtomboy/BIDV_Kidtomboy.jpg">
-      <img src="https://img.shields.io/badge/Donate-BIDV-%23E30613?logo=bank&logoColor=white" alt="Donate via BIDV">
-    </a><br>
-    <a href="https://playerduo.net/Kidtomboyreal">
-      <img src="https://img.shields.io/badge/Donate-PlayerDuo-%232E9B57?logo=play&logoColor=white" alt="Donate via PlayerDuo">
-    </a><br>
-    <a href="https://me.momo.vn/Kidtomboy">
-      <img src="https://img.shields.io/badge/Donate-Momo-%23FF6F00?logo=momo&logoColor=white" alt="Donate via Momo">
-    </a>
-  </div>
+<div style="text-align: center;">
+  <table style="width: 80%; margin: 0 auto; table-layout: fixed;">
+    <tr>
+      <td style="width: 48%; text-align: center;">
+        <a href="https://streamlabs.com/kidtomboy">
+          <img src="https://img.shields.io/badge/Donate-Streamlabs-%2300C2A3?logo=streamlabs&logoColor=white" alt="Donate via Streamlabs">
+        </a><br>
+        <a href="https://www.paypal.com/">
+          <img src="https://img.shields.io/badge/Donate-PayPal-%231877F2?logo=paypal&logoColor=white" alt="Donate via PayPal">
+        </a><br>
+        <a href="https://www.patreon.com/">
+          <img src="https://img.shields.io/badge/Donate-Patreon-%23FF424D?logo=patreon&logoColor=white" alt="Donate via Patreon">
+        </a><br>
+        <a href="https://ko-fi.com/">
+          <img src="https://img.shields.io/badge/Donate-Ko--fi-%23FF5D5B?logo=kofi&logoColor=white" alt="Donate via Ko-fi">
+        </a>
+      </td>
+      <td style="width: 48%; text-align: center;">
+        <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/image_Kidtomboy/BIDV_Kidtomboy.jpg">
+          <img src="https://img.shields.io/badge/Donate-BIDV-%23E30613?logo=bank&logoColor=white" alt="Donate via BIDV">
+        </a><br>
+        <a href="https://playerduo.net/Kidtomboyreal">
+          <img src="https://img.shields.io/badge/Donate-PlayerDuo-%232E9B57?logo=play&logoColor=white" alt="Donate via PlayerDuo">
+        </a><br>
+        <a href="https://me.momo.vn/Kidtomboy">
+          <img src="https://img.shields.io/badge/Donate-Momo-%23FF6F00?logo=momo&logoColor=white" alt="Donate via Momo">
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
