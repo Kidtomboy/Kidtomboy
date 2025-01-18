@@ -1,18 +1,22 @@
 name: Github metrics
 
 on:
-  workflow_dispatch: # for manual workflow trigger
+  # Run manually or on a scheduled trigger
   schedule:
     - cron: "0 0 * * *" # Run every day at midnight
+  
+  # Allows to manually run the job at any time
+  workflow_dispatch:
 
 jobs:
-  github-metrics:
+  generate:
+    permissions: 
+      contents: write 
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    timeout-minutes: 5
 
-      - name: Generate metrics
+    steps:
+      - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg 
@@ -45,10 +49,11 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
 
-      - name: Push metrics.svg to output branch
+      # Push the generated metrics.svg to the 'output' branch
+      - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: . 
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
