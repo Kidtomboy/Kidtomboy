@@ -13,34 +13,53 @@ on:
     branches:
     - master
     
+  
 jobs:
   generate:
     permissions: 
-      contents: write  # Cho phép ghi vào repository
-    runs-on: ubuntu-24.04
+      contents: write 
+    runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      # Generate metrics.svg using lowlighter/metrics action
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg  # Tạo file metrics.svg
+          filename: metrics.svg 
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Ho_Chi_Minh
+          plugin_wakatime: no
+          plugin_achievements: no
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           user: kidtomboy
           template: classic
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 365
+          plugin_languages_recent_load: 1000
+          plugin_languages_sections: recently-used
+          plugin_languages_threshold: 0%
+          plugin_languages_indepth: yes
+          commits_authoring: Kidtomboy
+          base_indepth: yes
+          base_hireable: yes
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
 
-      # Create the 'output' folder and move metrics.svg into it
-      - name: Move metrics.svg to the output folder
-        run: |
-          mkdir -p output  # Tạo thư mục output nếu chưa có
-          mv metrics.svg output/metrics.svg  # Di chuyển metrics.svg vào thư mục output
-
-      # Push the metrics.svg from the 'output' folder to the output branch
+      # Push the generated metrics.svg to the 'output' branch
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output  # Đẩy file vào nhánh 'output'
-          build_dir: .  # Đẩy thư mục hiện tại (có chứa output/metrics.svg) lên nhánh output
+          target_branch: output
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
