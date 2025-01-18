@@ -25,7 +25,7 @@ jobs:
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg 
+          filename: metrics_output/metrics.svg 
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
