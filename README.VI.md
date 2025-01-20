@@ -126,7 +126,7 @@
     <td style="width: 50%; padding: 10px;">
       <!-- Thống kê GitHub (phần trái) -->
       <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" style="width: 100%; max-width: 400px;" /><br/>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kidtomboy&theme=tokyonight&hide_border=false" style="width: 100%; max-width: 400px;" /><br/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kidtomboy&theme=tokyonight" style="width: 100%; max-width: 400px;" /><br/>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" style="width: 100%; max-width: 400px;" /><br/>
       <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" style="width: 100%; max-width: 400px;" /><br/>
       <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It+works+…+on+my+machine;+It’s+not+a+bug;+It’s+an+undocumented+feature;" style="width: 100%; max-width: 400px;" />
