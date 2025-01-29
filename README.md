@@ -26,7 +26,7 @@
   <li>🎯 My goal is to continuously contribute the best values to the community on GitHub.</li>
   <li>💪 I always believe in what I think and do, and I hope you'll feel the same way!</li>
   <li>🗣️ My words always go hand in hand with action, and I promise I won't let you down.</li>
-  <li>📝 My blog <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">blog</a> is where you'll find my thoughts and ideas throughout my development process.</li>
+  <li>📝 <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">My blog</a> is where you'll find my thoughts and ideas throughout my development process.</li>
   <li>📌 Everything you need is on my GitHub, where I document all my efforts and achievements.</li>
 </ul>
 
