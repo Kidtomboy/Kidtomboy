@@ -26,7 +26,7 @@
   <li>🎯 Mục tiêu của tôi là liên tục đóng góp những giá trị tốt nhất cho cộng đồng trên GitHub.</li>
   <li>💪 Tôi luôn tin vào những gì mình nghĩ và làm, và hy vọng bạn cũng cảm thấy như vậy!</li>
   <li>🗣️ Những lời nói của tôi luôn đi đôi với hành động, và tôi hứa sẽ không làm bạn thất vọng.</li>
-  <li>📝 Blog của tôi <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">blog</a> là nơi bạn sẽ tìm thấy những suy nghĩ và ý tưởng của tôi trong suốt quá trình phát triển.</li>
+  <li>📝 <a href="https://kidtomboy.blogspot.com/" style="color: #0055AA;">Blog của tôi</a> là nơi bạn sẽ tìm thấy những suy nghĩ và ý tưởng của tôi trong suốt quá trình phát triển.</li>
   <li>📌 Mọi thứ bạn cần đều có trên GitHub của tôi, nơi tôi ghi chép tất cả những nỗ lực và thành tựu của mình.</li>
 </ul>
 
