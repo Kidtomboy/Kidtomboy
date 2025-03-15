@@ -21,6 +21,10 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # Tạo thư mục dist nếu chưa tồn tại
+      - name: Create dist directory
+        run: mkdir -p dist
+
       # Generate metrics.svg using lowlighter/metrics action
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
