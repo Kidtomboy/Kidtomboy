@@ -201,4 +201,10 @@
 
 ---
 
+# 🌍 README in other languages
+
+👉 [🇻🇳 Xem README bằng tiếng Việt](README_vi.md)
+
+---
+
 <!-- Cherry 🍒 -->
