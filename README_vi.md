@@ -8,7 +8,7 @@
 
 <!-- Hiệu ứng gõ chữ để chào mừng -->
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=2500&size=35&pause=1000&center=true&vCenter=true&width=1000&height=50&lines=Chào+mọi+người+%5E%5E+Chào+mừng+đến+với+hồ+sơ+GitHub+của+tôi;Tôi+là+Kidtomboy+%5E%5E+Tên+đầy+đủ+của+tôi+là+Đỗ+Đình+Hiếu" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=2500&size=35&pause=1000&center=true&vCenter=true&width=1000&height=50&lines=Hello+everyone+%5E%5E+Welcome+to+my+GitHub+profile;I+am+Kidtomboy+%5E%5E+My+full+name+is+Do+Dinh+Hieu" alt="Typing SVG" />
 </h1>
 
 <!-- Giới thiệu biệt danh của tôi, Cherry -->
@@ -207,7 +207,7 @@
 <h3>📈 Xem biểu đồ hoạt động của tôi trên Github:</h3>
 
 <p style="font-size: 16px;">
-  Đây là biểu đồ đóng góp GitHub của tôi—một bức tranh tổng quan về hoạt động và tiến trình hàng ngày của tôi. Mỗi ô vuông màu sắc đại diện cho một ngày lập trình, học tập hoặc hợp tác. Đó là sự phản ánh hành trình của tôi, từng commit một. Hãy cùng nhau xây dựng điều gì đó tuyệt vời! �
+  Đây là biểu đồ đóng góp GitHub của tôi—một bức tranh tổng quan về hoạt động và tiến trình hàng ngày của tôi. Mỗi ô vuông màu sắc đại diện cho một ngày lập trình, học tập hoặc hợp tác. Đó là sự phản ánh hành trình của tôi, từng commit một. Hãy cùng nhau xây dựng điều gì đó tuyệt vời! 🚀
 </p>
 
 ![Biểu đồ hoạt động GitHub](https://github-readme-activity-graph.vercel.app/graph?username=Kidtomboy&theme=github-dark)
@@ -215,7 +215,7 @@
 <!-- Hiệu ứng gõ chữ với câu nói mỉa mai về lập trình -->
 <h3>😹 Những câu nói mỉa mai về lập trình:</h3>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=Nó+hoạt+động+…+trên+máy+của+tôi;+Nó+không+phải+là+lỗi;+Nó+là+tính+năng+chưa+được+ghi+chép;" style="width: 100%; max-width: 400px;" />
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It+works+…+on+my+machine;+It’s+not+a+bug;+It’s+an+undocumented+feature;" style="width: 100%; max-width: 400px;" />
 
 ---
 
