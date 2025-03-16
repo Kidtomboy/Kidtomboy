@@ -64,6 +64,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output2  # 🎯 Đẩy lên nhánh `output2`
-          build_dir: .  # 📂 Chỉ push file `metrics.svg` từ thư mục gốc
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
