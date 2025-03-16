@@ -21,15 +21,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 📌 Bước 1: Clone repo vào môi trường runner của GitHub Actions
-      - name: Checkout repository
+      # 📌 Bước 1: Clone nhánh `output2` vào môi trường runner
+      - name: Checkout output2 branch
         uses: actions/checkout@v4
+        with:
+          ref: output2  # 🎯 Clone nhánh `output2`
+          fetch-depth: 0  # Tải toàn bộ lịch sử commit
 
       # 📌 Bước 2: Tạo file metrics.svg bằng action `lowlighter/metrics`
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg  # 📁 Lưu file vào thư mục gốc (không cần thư mục metrics_output)
+          filename: metrics.svg  # 📁 Lưu file vào thư mục gốc
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
@@ -59,11 +62,13 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
 
-      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output2`
-      - name: Push metrics.svg to the output2 branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output2  # 🎯 Đẩy lên nhánh `output2`
-          build_dir: .  # 📂 Chỉ push file `metrics.svg` từ thư mục gốc
+      # 📌 Bước 3: Commit và đẩy file `metrics.svg` lên nhánh `output2`
+      - name: Commit and push metrics.svg to the output2 branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add metrics.svg
+          git commit -m "Update metrics.svg"
+          git push origin output2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
