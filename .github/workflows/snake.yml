@@ -39,6 +39,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output  # 🚀 Đẩy dữ liệu lên nhánh `output`
-          build_dir: Snake_output  # 📂 Chỉ push thư mục `Snake_output` thay vì toàn bộ repo
+          build_dir: snake_output  # 📂 Chỉ push thư mục `snake_output` thay vì toàn bộ repo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
