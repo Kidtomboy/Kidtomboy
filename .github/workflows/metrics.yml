@@ -1,69 +1,82 @@
-name: Github metrics
+name: Github metrics  # 📌 Tên của workflow
 
 on:
-  # Run manually or on a scheduled trigger
+  # 📅 Chạy tự động mỗi 24 giờ một lần vào lúc 00:00 (UTC)
   schedule:
-    - cron: "0 0 * * *" # Run every day at midnight
-  
-  # Allows to manually run the job at any time
+    - cron: "0 0 * * *"
+
+  # 🎯 Cho phép chạy workflow thủ công bất cứ lúc nào từ GitHub Actions
   workflow_dispatch:
-  
-  # Run on every push on the master branch
+
+  # 🔄 Chạy workflow mỗi khi có push lên nhánh `master`
   push:
     branches:
-    - master
-    
+      - master
+
 jobs:
-  generate:
+  generate:  # 🛠 Job "generate" để tạo file metrics.svg
     permissions: 
-      contents: write 
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output`
+    runs-on: ubuntu-latest  # 🚀 Chạy trên môi trường Ubuntu mới nhất
+    timeout-minutes: 5  # ⏳ Giới hạn thời gian chạy tối đa là 5 phút
 
     steps:
       # 📌 Bước 1: Clone repo vào môi trường runner của GitHub Actions
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # 🛠 Sử dụng GitHub Action để tải mã nguồn của repo
 
       # 📌 Bước 2: Tạo file metrics.svg bằng action `lowlighter/metrics`
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg  # 📁 Lưu file vào thư mục gốc
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Ho_Chi_Minh
-          plugin_wakatime: no
-          plugin_achievements: no
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          user: kidtomboy
-          template: classic
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 365
-          plugin_languages_recent_load: 1000
-          plugin_languages_sections: recently-used
-          plugin_languages_threshold: 0%
-          plugin_languages_indepth: yes
-          commits_authoring: Kidtomboy
-          base_indepth: yes
-          base_hireable: yes
-          repositories_forks: yes
-          repositories_affiliations: owner, collaborator, organization_member
+          filename: metrics_output/metrics.svg  # 📁 Lưu file vào thư mục `metrics_output`
+          token: ${{ secrets.METRICS_TOKEN }}  # 🔑 Sử dụng token từ GitHub Secrets để truy cập API
 
-      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output2`
-      - name: Push metrics.svg to the output2 branch
+          # 👤 Định danh người dùng GitHub
+          user: kidtomboy  # 🎯 Tên GitHub của bạn
+
+          # 📊 Cấu hình nội dung của metrics
+          base: header, activity, community, repositories, metadata  # 🏆 Hiển thị thông tin tổng quan
+          config_timezone: Asia/Ho_Chi_Minh  # ⏰ Đặt múi giờ thành Việt Nam
+
+          # 🚫 Tắt plugin WakaTime (chỉ bật nếu bạn dùng WakaTime)
+          plugin_wakatime: no
+
+          # 🏆 Kích hoạt plugin Achievements (thành tựu)
+          plugin_achievements: yes
+          plugin_achievements_display: detailed  # 📌 Hiển thị chi tiết
+          plugin_achievements_secrets: yes  # 🔓 Hiển thị cả thành tựu bí mật
+          plugin_achievements_threshold: C  # 🎖 Chỉ hiển thị thành tựu từ cấp độ C trở lên
+
+          # 📅 Kích hoạt plugin lịch sử commit
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year  # 🗓 Hiển thị lịch sử commit 1 năm
+
+          # 💻 Cấu hình plugin ngôn ngữ lập trình
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15  # ⏳ Thời gian phân tích tối đa 15s
+          plugin_languages_analysis_timeout_repositories: 7.5  # ⏳ Giới hạn phân tích repo là 7.5s
+          plugin_languages_categories: markup, programming  # 🎨 Chỉ lấy ngôn ngữ lập trình & markup
+          plugin_languages_colors: github  # 🎨 Sử dụng bảng màu GitHub
+          plugin_languages_recent_categories: markup, programming  # 🆕 Tương tự nhưng chỉ lấy ngôn ngữ gần đây
+          plugin_languages_recent_days: 365  # 📆 Lấy dữ liệu trong 1 năm gần nhất
+          plugin_languages_recent_load: 1000  # 🔍 Giới hạn số lượng repo cần phân tích
+          plugin_languages_sections: recently-used  # 📌 Hiển thị ngôn ngữ sử dụng gần đây
+          plugin_languages_threshold: 0%  # 📊 Không lọc ngôn ngữ theo mức độ sử dụng
+          plugin_languages_indepth: yes  # 🔎 Phân tích chuyên sâu về ngôn ngữ lập trình
+
+          # 🔧 Các tùy chọn khác
+          commits_authoring: Kidtomboy  # ✍️ Tác giả commit
+          base_indepth: yes  # 📖 Hiển thị dữ liệu chi tiết
+          base_hireable: yes  # 🔎 Hiển thị trạng thái tuyển dụng
+          repositories_forks: yes  # 🔄 Hiển thị cả repo fork
+          repositories_affiliations: owner, collaborator, organization_member  # 🎭 Hiển thị repo sở hữu/cộng tác/thành viên
+
+      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output`
+      - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output2  # 🎯 Đẩy lên nhánh `output2`
-          build_dir: dist
+          target_branch: output2  # 🚀 Đẩy dữ liệu lên nhánh `output`
+          build_dir: metrics_output  # 📂 Chỉ push thư mục `metrics_output`
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
