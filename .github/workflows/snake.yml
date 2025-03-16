@@ -1,4 +1,4 @@
-name: Snake eat GitHub Contributions
+name: generate animation
 
 on:
   # Run automatically every 24 hours
