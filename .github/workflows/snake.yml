@@ -1,0 +1,44 @@
+name: Snake eat GitHub Contributions  # 📌 Tên của workflow
+
+on:
+  # 📅 Chạy workflow tự động mỗi ngày vào lúc 00:00 (Giờ UTC)
+  schedule:
+    - cron: "0 0 * * *"
+
+  # 🎯 Cho phép chạy workflow thủ công bất cứ lúc nào từ GitHub Actions
+  workflow_dispatch:
+
+  # 🔄 Chạy workflow mỗi khi có push lên nhánh `master`
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    permissions: 
+      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output`
+    runs-on: ubuntu-latest  # 🚀 Chạy workflow trên môi trường Ubuntu mới nhất
+    timeout-minutes: 5  # ⏳ Giới hạn thời gian chạy tối đa là 5 phút
+
+    steps:
+      # 📌 Bước 1: Clone repo vào môi trường runner của GitHub Actions
+      - name: Checkout repository
+        uses: actions/checkout@v4  # 🛠 Sử dụng GitHub Action để tải mã nguồn của repo
+
+      # 📌 Bước 2: Tạo ảnh động "Snake" từ biểu đồ đóng góp GitHub của bạn
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}  # 👤 Tên GitHub của bạn (tự động lấy từ repo)
+          outputs: |
+            Snake_output/github-contribution-grid-snake.svg  # 📁 Lưu file trong thư mục `Snake_output`
+            Snake_output/github-contribution-grid-snake-dark.svg?palette=github-dark  # 📁 Lưu phiên bản nền tối
+
+      # 📌 Bước 3: Push thư mục `Snake_output` chứa các file SVG lên nhánh `output`
+      - name: Push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output  # 🚀 Đẩy dữ liệu lên nhánh `output`
+          build_dir: Snake_output  # 📂 Chỉ push thư mục `Snake_output` thay vì toàn bộ repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
