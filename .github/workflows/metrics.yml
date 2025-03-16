@@ -27,11 +27,15 @@ jobs:
         with:
           fetch-depth: 0  # 📥 Tải toàn bộ lịch sử commit để tránh commit nhầm
 
-      # 📌 Bước 2: Tạo file metrics.svg bằng action `lowlighter/metrics`
+      # 📌 Bước 2: Tạo thư mục `dist` (nếu chưa tồn tại)
+      - name: Create dist directory
+        run: mkdir -p dist  # 📂 Tạo thư mục `dist`
+
+      # 📌 Bước 3: Tạo file metrics.svg bằng action `lowlighter/metrics`
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.svg  # 📁 Lưu file vào thư mục `dist` (giống như trong snake.yml)
+          filename: dist/metrics.svg  # 📁 Lưu file vào thư mục `dist`
           token: ${{ secrets.METRICS_TOKEN }}  # 🔑 Sử dụng token từ GitHub Secrets để truy cập API
 
           # 👤 Định danh người dùng GitHub
@@ -74,7 +78,7 @@ jobs:
           repositories_forks: yes  # 🔄 Hiển thị cả repo fork
           repositories_affiliations: owner, collaborator, organization_member  # 🎭 Hiển thị repo sở hữu/cộng tác/thành viên
 
-      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output2`
+      # 📌 Bước 4: Push file `metrics.svg` lên nhánh `output2`
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -82,3 +86,20 @@ jobs:
           build_dir: dist  # 📂 Chỉ push file `metrics.svg` từ thư mục `dist`
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
+
+      # 📌 Bước 5: Xóa file `metrics.svg` khỏi nhánh `main`
+      - name: Delete metrics.svg from main branch
+        run: |
+          # Lấy SHA của file `metrics.svg` trên nhánh `main`
+          SHA=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/contents/metrics.svg?ref=main" \
+            | jq -r '.sha')
+
+          # Nếu file tồn tại, xóa nó
+          if [ "$SHA" != "null" ]; then
+            curl -X DELETE -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              -d '{"message": "Delete metrics.svg", "sha": "'"$SHA"'"}' \
+              "https://api.github.com/repos/${{ github.repository }}/contents/metrics.svg"
+          fi
