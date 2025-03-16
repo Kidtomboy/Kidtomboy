@@ -16,7 +16,7 @@ on:
 jobs:
   generate:  # 🛠 Job "generate" để tạo file metrics.svg
     permissions: 
-      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output`
+      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output2`
     runs-on: ubuntu-latest  # 🚀 Chạy trên môi trường Ubuntu mới nhất
     timeout-minutes: 5  # ⏳ Giới hạn thời gian chạy tối đa là 5 phút
 
@@ -31,7 +31,7 @@ jobs:
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg  # 📁 Lưu file vào thư mục gốc (không cần thư mục `metrics_output`)
+          filename: dist/metrics.svg  # 📁 Lưu file vào thư mục `dist` (giống như trong snake.yml)
           token: ${{ secrets.METRICS_TOKEN }}  # 🔑 Sử dụng token từ GitHub Secrets để truy cập API
 
           # 👤 Định danh người dùng GitHub
@@ -74,11 +74,11 @@ jobs:
           repositories_forks: yes  # 🔄 Hiển thị cả repo fork
           repositories_affiliations: owner, collaborator, organization_member  # 🎭 Hiển thị repo sở hữu/cộng tác/thành viên
 
-      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output`
+      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output2`
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output2 # 🚀 Đẩy dữ liệu lên nhánh `output2`
-          build_dir: .  # 📂 Chỉ push file `metrics.svg` từ thư mục gốc
+          target_branch: output2  # 🚀 Đẩy dữ liệu lên nhánh `output2`
+          build_dir: dist  # 📂 Chỉ push file `metrics.svg` từ thư mục `dist`
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
