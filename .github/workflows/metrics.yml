@@ -16,7 +16,7 @@ on:
 jobs:
   generate:  # 🛠 Job "generate" để tạo file metrics.svg
     permissions: 
-      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output2`
+      contents: write  # ✅ Cấp quyền ghi vào repo để push file lên nhánh `output`
     runs-on: ubuntu-latest  # 🚀 Chạy trên môi trường Ubuntu mới nhất
     timeout-minutes: 5  # ⏳ Giới hạn thời gian chạy tối đa là 5 phút
 
@@ -24,18 +24,12 @@ jobs:
       # 📌 Bước 1: Clone repo vào môi trường runner của GitHub Actions
       - name: Checkout repository
         uses: actions/checkout@v4  # 🛠 Sử dụng GitHub Action để tải mã nguồn của repo
-        with:
-          fetch-depth: 0  # 📥 Tải toàn bộ lịch sử commit để tránh commit nhầm
 
-      # 📌 Bước 2: Tạo thư mục `dist` (nếu chưa tồn tại)
-      - name: Create dist directory
-        run: mkdir -p dist  # 📂 Tạo thư mục `dist`
-
-      # 📌 Bước 3: Tạo file metrics.svg bằng action `lowlighter/metrics`
+      # 📌 Bước 2: Tạo file metrics.svg bằng action `lowlighter/metrics`
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.svg  # 📁 Lưu file vào thư mục `dist`
+          filename: metrics_output/metrics.svg  # 📁 Lưu file vào thư mục `metrics_output`
           token: ${{ secrets.METRICS_TOKEN }}  # 🔑 Sử dụng token từ GitHub Secrets để truy cập API
 
           # 👤 Định danh người dùng GitHub
@@ -78,28 +72,11 @@ jobs:
           repositories_forks: yes  # 🔄 Hiển thị cả repo fork
           repositories_affiliations: owner, collaborator, organization_member  # 🎭 Hiển thị repo sở hữu/cộng tác/thành viên
 
-      # 📌 Bước 4: Push file `metrics.svg` lên nhánh `output2`
+      # 📌 Bước 3: Push file `metrics.svg` lên nhánh `output`
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output2  # 🚀 Đẩy dữ liệu lên nhánh `output2`
-          build_dir: dist  # 📂 Chỉ push file `metrics.svg` từ thư mục `dist`
+          target_branch: output2  # 🚀 Đẩy dữ liệu lên nhánh `output`
+          build_dir: metrics_output  # 📂 Chỉ push thư mục `metrics_output`
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
-
-      # 📌 Bước 5: Xóa file `metrics.svg` khỏi nhánh `main`
-      - name: Delete metrics.svg from main branch
-        run: |
-          # Lấy SHA của file `metrics.svg` trên nhánh `main`
-          SHA=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/contents/metrics.svg?ref=main" \
-            | jq -r '.sha')
-
-          # Nếu file tồn tại, xóa nó
-          if [ "$SHA" != "null" ]; then
-            curl -X DELETE -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              -d '{"message": "Delete metrics.svg", "sha": "'"$SHA"'"}' \
-              "https://api.github.com/repos/${{ github.repository }}/contents/metrics.svg"
-          fi
