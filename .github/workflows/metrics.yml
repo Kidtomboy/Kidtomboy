@@ -1,47 +1,52 @@
 name: Github metrics
 
 on:
+  # Run manually or on a scheduled trigger
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Run every day at midnight
+  
+  # Allows to manually run the job at any time
   workflow_dispatch:
+  
+  # Run on every push on the master branch
   push:
     branches:
-      - master
-
+    - master
+    
+  
 jobs:
   generate:
-    permissions:
-      contents: write
-      pages: write
+    permissions: 
+      contents: write 
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: output2  # ✅ Check out branch `output2` thay vì `main`
-          fetch-depth: 0  # 🛑 Đảm bảo lấy đầy đủ lịch sử commit tránh lỗi sync
-
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg  # ✅ Lưu trực tiếp, KHÔNG vào thư mục `metrics_output`
+          filename: metrics_output/metrics.svg 
           token: ${{ secrets.METRICS_TOKEN }}
-          user: kidtomboy
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
-          plugin_achievements: yes
+          plugin_wakatime: no
+          plugin_achievements: no
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
+          user: kidtomboy
+          template: classic
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
-          plugin_languages_sections: recently-used
+          plugin_languages_colors: github
+          plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 365
           plugin_languages_recent_load: 1000
+          plugin_languages_sections: recently-used
           plugin_languages_threshold: 0%
           plugin_languages_indepth: yes
           commits_authoring: Kidtomboy
@@ -50,13 +55,11 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
 
-      - name: Check generated files
-        run: ls -lh || echo "⚠️ No output generated!"  # 🔍 Debug nếu file không được tạo
-
-      - name: Commit & Push metrics.svg to output2
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add metrics.svg
-          git commit -m "Update metrics.svg" || echo "No changes to commit"
-          git push origin output2  # 🚀 Đẩy lên nhánh `output2`
+      # Push the generated metrics.svg to the 'output' branch
+      - name: Push metrics.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
