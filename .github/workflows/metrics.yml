@@ -24,12 +24,14 @@ jobs:
       # 📌 Bước 1: Clone repo vào môi trường runner của GitHub Actions
       - name: Checkout repository
         uses: actions/checkout@v4  # 🛠 Sử dụng GitHub Action để tải mã nguồn của repo
+        with:
+          fetch-depth: 0  # 📥 Tải toàn bộ lịch sử commit để tránh commit nhầm
 
       # 📌 Bước 2: Tạo file metrics.svg bằng action `lowlighter/metrics`
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics_output/metrics.svg  # 📁 Lưu file vào thư mục `metrics_output`
+          filename: metrics.svg  # 📁 Lưu file vào thư mục gốc (không cần thư mục `metrics_output`)
           token: ${{ secrets.METRICS_TOKEN }}  # 🔑 Sử dụng token từ GitHub Secrets để truy cập API
 
           # 👤 Định danh người dùng GitHub
@@ -76,7 +78,7 @@ jobs:
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output2  # 🚀 Đẩy dữ liệu lên nhánh `output`
-          build_dir: metrics_output  # 📂 Chỉ push thư mục `metrics_output`
+          target_branch: output2 # 🚀 Đẩy dữ liệu lên nhánh `output2`
+          build_dir: .  # 📂 Chỉ push file `metrics.svg` từ thư mục gốc
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 🔑 Token để cấp quyền push lên GitHub
