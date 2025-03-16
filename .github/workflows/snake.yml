@@ -1,9 +1,9 @@
-name: Snake eat GitHub Contributions 🐍
+name: Generate GitHub Contribution Animation 🎨
 
 on:
-   # 📅 Run automatically on schedule or manually triggered
+  # 🔧 Run automatically every 24 hours
   schedule:
-    - cron: "0 * * * *" # ⏰ Run at midnight every day
+    - cron: "0 */24 * * *" # ⏰ Runs once every 24 hours
   
   # 🛠️ Allow manual workflow execution
   workflow_dispatch:
@@ -12,7 +12,8 @@ on:
   push:
     branches:
     - master
-  
+    
+
 jobs:
   generate:
     permissions: 
@@ -21,7 +22,7 @@ jobs:
     timeout-minutes: 5 # ⏳ Set a maximum runtime of 5 minutes
     
     steps:
-      # 🔍 Generates a snake game from a GitHub user's contributions graph
+      # 🔍 Generates a snake game animation from a GitHub user's contributions graph
       - name: 🐍 Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3 # ⚙️ Use the snake game generator
         with:
