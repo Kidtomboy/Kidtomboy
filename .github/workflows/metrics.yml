@@ -1,9 +1,9 @@
 name: Github metrics
 
 on:
-  # Run manually or on a scheduled trigger
+  # Run automatically every 24 hours
   schedule:
-    - cron: "0 0 * * *" # Run every day at midnight
+    - cron: "0 */24 * * *" 
   
   # Allows to manually run the job at any time
   workflow_dispatch:
@@ -16,20 +16,16 @@ on:
 jobs:
   generate:
     permissions: 
-      contents: write 
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
+    
     steps:
-      # Tạo thư mục dist nếu chưa tồn tại
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      # Generate metrics.svg using lowlighter/metrics action
+      # Generates metrics.svg using lowlighter/metrics action
       - name: Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.svg 
+          filename: dist/metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
@@ -59,7 +55,8 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
 
-      # Push the generated metrics.svg to the 'output' branch
+      # Push the content of <build_dir> to a branch
+      # The content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: Push metrics.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
