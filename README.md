@@ -178,7 +178,7 @@
     </td>
     <td style="width: 50%; padding: 10px;">
       <!-- Other Stats (right part) -->
-      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/fe052628ca64e6723e90864b8664cd0d5ec0bb01/metrics_output/metrics.svg" style="width: 100%; max-width: 400px;" />
+      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/main/metrics_output/metrics.svg" style="width: 100%; max-width: 400px;" />
     </td>
   </tr>
 </table>
