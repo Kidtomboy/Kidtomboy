@@ -192,7 +192,7 @@
   Cảm ơn bạn đã ghé thăm hồ sơ của tôi! Mỗi lượt xem không chỉ là một con số, mà còn là một lời động viên để tôi tiếp tục sáng tạo và học hỏi. Tôi hy vọng những gì tôi chia sẻ sẽ mang lại giá trị cho bạn. 💛
 </p>
 
-![Đếm lượt xem](https://komarev.com/ghpvc/?username=Kidtomboy&color=blue)
+![Đếm lượt xem](https://count.getloli.com/@Kidtomboy?name=Kidtomboy&padding=7&offset=0&align=center&scale=2&pixelated=1&darkmode=1)
 
 <!-- Hiệu ứng rắn ăn các đóng góp trên GitHub -->
 <h3>🌸 Xem chú rắn đang ăn các đóng góp trên GitHub:</h3>
