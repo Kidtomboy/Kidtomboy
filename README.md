@@ -192,7 +192,7 @@
   Thank you for visiting my profile! Each view is not just a number, but an encouragement for me to keep creating and learning. I hope what I share brings value to you. 💛
 </p>
 
-![Views Count](https://komarev.com/ghpvc/?username=Kidtomboy&color=blue)
+![Views Count](https://count.getloli.com/@Kidtomboy?name=Kidtomboy&padding=7&offset=0&align=center&scale=2&pixelated=1&darkmode=1)
 
 <!-- Snake animation for GitHub contributions -->
 <h3>🌸 Watch the Snake Eating GitHub Contributions:</h3>
