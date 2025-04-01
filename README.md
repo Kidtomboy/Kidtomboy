@@ -236,6 +236,7 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=midnight-purple" alt="Taihensub">
   </a>
 </div>
+
 ---
 
 <!-- Support Me section -->
