@@ -220,30 +220,22 @@
 ---
 
 <!-- Featured Projects section -->
-<h3 align="center">🚀 Featured Projects:</h3>
+<h3>🚀 Featured Projects:</h3>
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 20px;">
-  <!-- Anisub -->
-  <a href="https://github.com/Kidtomboy/anisub" style="flex: 1 1 calc(50% - 32px); min-width: 280px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&theme=midnight-purple&show_owner=true" alt="Anisub">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <a href="https://github.com/Kidtomboy/anisub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&theme=midnight-purple" alt="Anisub">
   </a>
-  
-  <!-- Comicsub -->
-  <a href="https://github.com/Kidtomboy/comicsub" style="flex: 1 1 calc(50% - 32px); min-width: 280px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&theme=midnight-purple&show_owner=true" alt="Comicsub">
+  <a href="https://github.com/Kidtomboy/comicsub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&theme=midnight-purple" alt="Comicsub">
   </a>
-  
-  <!-- Musicsub -->
-  <a href="https://github.com/Kidtomboy/musicsub" style="flex: 1 1 calc(50% - 32px); min-width: 280px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&theme=midnight-purple&show_owner=true" alt="Musicsub">
+  <a href="https://github.com/Kidtomboy/musicsub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&theme=midnight-purple" alt="Musicsub">
   </a>
-  
-  <!-- Taihensub -->
-  <a href="https://github.com/Kidtomboy/taihensub" style="flex: 1 1 calc(50% - 32px); min-width: 280px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=midnight-purple&show_owner=true" alt="Taihensub">
+  <a href="https://github.com/Kidtomboy/taihensub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=midnight-purple" alt="Taihensub">
   </a>
 </div>
-
 ---
 
 <!-- Support Me section -->
