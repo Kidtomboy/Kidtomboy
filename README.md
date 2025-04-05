@@ -92,8 +92,8 @@
     <!-- Column 2: Operating Systems I Use -->
     <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
       <h4>Operating Systems I Use:</h4>
-      <!-- Icons for Windows, Kali Linux, Linux, Ubuntu, Arch Linux -->
-      <img src="https://skillicons.dev/icons?i=windows,kali,linux,ubuntu,arch" alt="Windows, Kali Linux, Linux, Ubuntu, Arch Linux" />
+      <!-- Icons for Windows, Kali Linux, Arch Linux, Debian, Ubuntu -->
+      <img src="https://skillicons.dev/icons?i=windows,kali,arch,debian,ubuntu" alt="Windows, Kali Linux, Arch Linux, Debian, Ubuntu" />
     </td>
   </tr>
 </table>
