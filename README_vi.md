@@ -178,7 +178,7 @@
     </td>
     <td style="width: 50%; padding: 10px;">
       <!-- Các thống kê khác (phần bên phải) -->
-      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/main/metrics_output/metrics.svg" style="width: 100%; max-width: 400px;" />
+      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/main/metrics/metrics.svg" style="width: 100%; max-width: 400px;" />
     </td>
   </tr>
 </table>
@@ -266,7 +266,7 @@
     </td>
     <td>
         <!-- Cột hai -->
-      <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/image_Kidtomboy/BIDV_Kidtomboy.jpg">
+      <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/images/bank/BIDV_Kidtomboy.jpg">
         <img src="https://img.shields.io/badge/Donate-BIDV-%23E30613?logo=bank&logoColor=white" alt="Quyên góp qua BIDV">
       </a><br>
       <a href="https://playerduo.net/Kidtomboyreal">
