@@ -224,16 +224,16 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <a href="https://github.com/Kidtomboy/anisub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&theme=dark" alt="Anisub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&theme=github_dark" alt="Anisub">
   </a>
   <a href="https://github.com/Kidtomboy/comicsub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&theme=dark" alt="Comicsub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&theme=github_dark" alt="Comicsub">
   </a>
   <a href="https://github.com/Kidtomboy/musicsub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&theme=dark" alt="Musicsub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&theme=github_dark" alt="Musicsub">
   </a>
   <a href="https://github.com/Kidtomboy/taihensub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=dark" alt="Taihensub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=github_dark" alt="Taihensub">
   </a>
 </div>
 
