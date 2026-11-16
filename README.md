@@ -1,230 +1,37 @@
-<!-- Welcome message when viewing Github profile -->
-<h1 align="center">🍒 Welcome to My GitHub Profile 🍒</h1>
+<h1 align="center">🍒 Welcome to my GitHub profile 🍒</h1>
 
-<!-- Personal Cover Image linking to my Bento profile -->
-[![Personal Cover Image](https://i.imgur.com/8GleZgS.jpeg)](https://bento.me/Kidtomboy)
+<p align="center"><a href="https://bento.me/Kidtomboy"><img src="https://i.imgur.com/8GleZgS.jpeg" alt="Cover" /></a></p>
 
----
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=2500&size=30&pause=1000&color=E8467C&center=true&vCenter=true&width=900&height=50&lines=Hello+everyone+%5E%5E+Welcome+to+my+GitHub+profile;I+am+Kidtomboy+%5E%5E+My+full+name+is+Do+Dinh+Hieu;My+nickname+is+Cherry+%F0%9F%8D%92" alt="Typing SVG" /></p>
 
-<!-- Typing animation for a warm welcome -->
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=2500&size=35&pause=1000&center=true&vCenter=true&width=1000&height=50&lines=Hello+everyone+%5E%5E+Welcome+to+my+GitHub+profile;I+am+Kidtomboy+%5E%5E+My+full+name+is+Do+Dinh+Hieu" alt="Typing SVG" />
-</h1>
-
-<!-- Introduction to my nickname, Cherry -->
-<h3 align="center"> My nickname is Cherry, a name that is both sweet and full of vitality, isn't it?</h3>
+<h3 align="center">My nickname is <b>Cherry</b> — sweet and full of vitality, isn't it? 🌸</h3>
 
 ---
 
-<!-- About me section -->
-<h3>🔰 Programmer, Cyber ​​Security Research, Software Research.</h3>
-
+<h3>🌷 About me</h3>
+<p><b>Programmer · Cyber Security Research · Software Research</b></p>
 <ul>
-  <li>🌍 Currently, I am living and working in Hai Phong - Vietnam, where I find endless inspiration for creative work.</li>
-  <li>✉️ You can contact me at <a href="mailto:iamkidtomboyreal@gmail.com">iamkidtomboyreal@gmail.com</a> for collaboration, exchanges, or just a chat.</li>
-  <li>🚀 Currently, I am leveraging remote learning and working to explore new and creative things.</li>
-  <li>🧠 My favorite programming languages are: <b>Python, JavaScript, TypeScript, C</b>, and I always strive to improve my skills.</li>
-  <li>🧩 I am always open to community projects where I can contribute and learn from other co-creators.</li>
+  <li>🌍 Living and working in <b>Hai Phong, Vietnam</b>, where I find endless inspiration.</li>
+  <li>✉️ Contact: <a href="mailto:iamkidtomboyreal@gmail.com">iamkidtomboyreal@gmail.com</a> — collaboration, exchange, or just a chat.</li>
+  <li>🚀 Learning and working remotely to explore new and creative things.</li>
+  <li>🧠 Favorite languages: <b>Python, JavaScript, TypeScript, C</b> — always improving.</li>
+  <li>🧩 Open to community projects where I can contribute and learn from other co-creators.</li>
 </ul>
 
-<!-- My thoughts on GitHub -->
-<h3>⭐ To me, GitHub is not just a platform but a part of the journey!</h3>
-
+<h3>⭐ To me, GitHub is part of the journey</h3>
 <ul>
-  <li>🎯 My goal is to continuously contribute the best values to the community on GitHub.</li>
-  <li>💪 I always believe in what I think and do, and I hope you'll feel the same way!</li>
-  <li>🗣️ My words always go hand in hand with action, and I promise I won't let you down.</li>
-  <li>📝 <a href="https://kidtomboy.blogspot.com/">My blog</a> is where you'll find my thoughts and ideas throughout my development process.</li>
-  <li>📌 Everything you need is on my GitHub, where I document all my efforts and achievements.</li>
+  <li>🎯 My goal: keep contributing the best value to the community.</li>
+  <li>💪 I believe in what I think and do — and hope you will too.</li>
+  <li>🗣️ My words go hand in hand with action.</li>
+  <li>📝 <a href="https://kidtomboy.blogspot.com/">My blog</a> holds my thoughts and ideas along the way.</li>
+  <li>📌 Everything you need is on my GitHub, where I document my efforts and achievements.</li>
 </ul>
 
 ---
 
-<!-- Favorite Technologies section -->
-<h3>💻 Favorite Technologies:</h3>
+<h3>🎮 Che779 — J2ME game emulator (v1.3.0)</h3>
 
-<!-- Table to display favorite technologies, tools, and operating systems -->
-<table style="width: 80%; table-layout: fixed; margin: 0 auto; border-collapse: collapse;">
-  <!-- First row: Programming Languages and Frameworks/Libraries -->
-  <tr>
-    <!-- Column 1: Favorite Programming Languages -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Favorite Programming Languages:</h4>
-      <!-- Icons for C, C#, C++, JavaScript, TypeScript -->
-      <img src="https://skillicons.dev/icons?i=c,cs,cpp,js,ts" alt="C, C#, C++, JavaScript, TypeScript" /><br>
-      <!-- Icons for Java, Python, PHP, Bash, HTML -->
-      <img src="https://skillicons.dev/icons?i=java,python,php,bash,html" alt="Java, Python, PHP, Bash, HTML" />
-    </td>
-    <!-- Column 2: Favorite Frameworks and Libraries -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Favorite Frameworks and Libraries:</h4>
-      <!-- Icons for Node.js, Discord.js, Next.js, Bootstrap, .NET -->
-      <img src="https://skillicons.dev/icons?i=nodejs,discordjs,nextjs,bootstrap,dotnet" alt="Node.js, Discord.js, Next.js, Bootstrap, .NET" /><br>
-      <!-- Icons for CSS, Lua, React, Vue.js, Angular -->
-      <img src="https://skillicons.dev/icons?i=css,lua,react,vue,angular" alt="CSS, Lua, React, Vue.js, Angular" />
-    </td>
-  </tr>
-
-  <!-- Second row: Tools/Applications and Databases -->
-  <tr>
-    <!-- Column 1: Tools and Applications I Use -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Tools and Applications I Use:</h4>
-      <!-- Icons for Git, GitHub, NPM, Yarn, Docker -->
-      <img src="https://skillicons.dev/icons?i=github,git,npm,docker,yarn" alt="Git, GitHub, NPM, Yarn, Docker" />
-    </td>
-    <!-- Column 2: Favorite Databases -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Favorite Databases:</h4>
-      <!-- Icons for MongoDB, MySQL, SQLite, PostgreSQL, Google Cloud -->
-      <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,postgresql,gcp" alt="MongoDB, MySQL, SQLite, PostgreSQL, Google Cloud" />
-    </td>
-  </tr>
-
-  <!-- Third row: Development Tools and Operating Systems -->
-  <tr>
-    <!-- Column 1: Favorite Development Tools -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Favorite Development Tools:</h4>
-      <!-- Icons for VS Code, Neovim, Sublime Text, PyCharm, Webstorm -->
-      <img src="https://skillicons.dev/icons?i=vscode,neovim,sublime,pycharm,webstorm" alt="VS Code, Neovim, Sublime Text, PyCharm, Webstorm" />
-    </td>
-    <!-- Column 2: Operating Systems I Use -->
-    <td style="width: 50%; padding: 20px; border: 1px solid #ddd; text-align: center;">
-      <h4>Operating Systems I Use:</h4>
-      <!-- Icons for Windows, Kali Linux, Arch Linux, Debian, Ubuntu -->
-      <img src="https://skillicons.dev/icons?i=windows,kali,arch,debian,ubuntu" alt="Windows, Kali Linux, Arch Linux, Debian, Ubuntu" />
-    </td>
-  </tr>
-</table>
-
----
-
-<!-- Section for the social media platforms I use -->
-<h3>🌐 Social Media I Use:</h3>
-
-<!-- Table containing social media links -->
-<table>
-  <tr>
-    <!-- Column 1: Bento, LinkedIn, Telegram -->
-    <td>
-      <a href="https://bento.me/Kidtomboy"><img src="https://img.shields.io/badge/Bento-%23FF5B00.svg?logo=bento&logoColor=white" alt="Bento"></a><br>
-      <a href="https://linkedin.com/in/Kidtomboy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=Linkedin&logoColor=white" alt="LinkedIn"></a><br>
-      <a href="https://t.me/KidtomboyReal"><img src="https://img.shields.io/badge/Telegram-%23007BFF.svg?logo=telegram&logoColor=white" alt="Telegram"></a>
-    </td>
-    <!-- Column 2: Blogger, Pinterest, TikTok -->
-    <td>
-      <a href="https://kidtomboy.blogspot.com/"><img src="https://img.shields.io/badge/Blogger-%23FF5722.svg?logo=blogger&logoColor=white" alt="Blogger"></a><br>
-      <a href="https://pinterest.com/Kidtomboy"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white" alt="Pinterest"></a><br>
-      <a href="https://tiktok.com/@Kidtomboy"><img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok"></a>
-    </td>
-    <!-- Column 3: Discord, Reddit, Twitch -->
-    <td>
-      <a href="https://discord.gg/cM8eE93S7M"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"></a><br>
-      <a href="https://reddit.com/user/Kidtomboy"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white" alt="Reddit"></a><br>
-      <a href="https://twitch.tv/Kidtomboy"><img src="https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white" alt="Twitch"></a>
-    </td>
-    <!-- Column 4: Facebook, SoundCloud, X (Twitter) -->
-    <td>
-      <a href="https://facebook.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"></a><br>
-      <a href="https://soundcloud.com/kidtomboy"><img src="https://img.shields.io/badge/SoundCloud-%23FF3300.svg?logo=soundcloud&logoColor=white" alt="SoundCloud"></a><br>
-      <a href="https://twitter.com/Kidtomboy"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a>
-    </td>
-    <!-- Column 5: Instagram, Spotify, WhatsApp -->
-    <td>
-      <a href="https://instagram.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a><br>
-      <a href="https://spotify.com/user/31wbafanj3s3hxdxlaiyezqrbgei"><img src="https://img.shields.io/badge/Spotify-%231DB954.svg?logo=spotify&logoColor=white" alt="Spotify"></a><br>
-      <a href="https://wa.me/0387831869"><img src="https://img.shields.io/badge/WhatsApp-%2304B400.svg?logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
-    </td>
-    <!-- Column 6: Linktree, Steam, YouTube -->
-    <td>
-      <a href="https://linktr.ee/Kidtomboy"><img src="https://img.shields.io/badge/Linktree-%231A5B8B.svg?logo=linktree&logoColor=white" alt="Linktree"></a><br>
-      <a href="https://steamcommunity.com/id/Kidtomboy"><img src="https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white" alt="Steam"></a><br>
-      <a href="https://youtube.com/@Kidtomboy"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" alt="YouTube"></a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- A small note about links to fake platforms -->
-<p style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/emoji/20/000000/warning-emoji.png" alt="Warning" style="margin-right: 5px;">
-  P/s: There are a few platforms I prefer not to link here; too many links can get confusing! Not to mention there are people impersonating me. HAHA xD!!!
-</p>
-
----
-
-<!-- GitHub Achievements section -->
-<h3>🥇 GitHub Achievements:</h3>
-
-<div style="text-align: center;">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kidtomboy&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Achievements" />
-</div>
-
----
-
-<!-- GitHub Statistics section -->
-<h3>📊 GitHub Statistics:</h3>
-
-<table style="width: 100%; table-layout: fixed; text-align: center;">
-  <tr>
-    <td style="width: 50%; padding: 10px;">
-      <!-- GitHub Statistics (left part) -->
-      <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,&theme=midnight-purple" style="width: 100%; max-width: 400px;" /><br/>
-      <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=Kidtomboy&theme=midnight-purple&hide_border=false" style="width: 100%; max-width: 400px;" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact" style="width: 100%; max-width: 400px;" /><br/>
-      <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true" style="width: 100%; max-width: 400px;" /><br/>
-    </td>
-    <td style="width: 50%; padding: 10px;">
-      <!-- Other Stats (right part) -->
-      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/main/metrics/metrics.svg" style="width: 100%; max-width: 400px;" />
-    </td>
-  </tr>
-</table>
-
----
-
-<!-- Views Count section -->
-<h3>👀 Views Count:</h3>
-
-<p style="font-size: 16px;">
-  Thank you for visiting my profile! Each view is not just a number, but an encouragement for me to keep creating and learning. I hope what I share brings value to you. 💛
-</p>
-
-![Views Count](https://count.getloli.com/@Kidtomboy?name=Kidtomboy&padding=7&offset=0&align=center&scale=2&pixelated=1&darkmode=1)
-
-<!-- Snake animation for GitHub contributions -->
-<h3>🌸 Watch the Snake Eating GitHub Contributions:</h3>
-
-<p style="font-size: 16px;">
-  Do you see this cute snake? It’s a fun way to display my contributions on GitHub. Each square that fills up represents a drop of sweat in my journey of learning and development. If you also have contributions, feel free to share your GitHub link, and I'd be happy to visit! 🌟
-</p>
-
-![Snake Gif](https://github.com/Kidtomboy/Kidtomboy/blob/output/github-contribution-grid-snake-dark.svg)
-
-<!-- GitHub Activity Graph -->
-<h3>📈 See my activity chart on Github:</h3>
-
-<p style="font-size: 16px;">
-  This is my GitHub contribution graph—a snapshot of my daily activity and progress. Each colored square represents a day of coding, learning, or collaborating. It’s a reflection of my journey, one commit at a time. Let’s build something amazing together! 🚀
-</p>
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kidtomboy&theme=github-dark)
-
-<!-- Typing effect with a sarcastic programming quote -->
-<h3>😹 Sarcastic quotes about programming:</h3>
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=110&duration=4000&lines=It+works+…+on+my+machine;+It’s+not+a+bug;+It’s+an+undocumented+feature;" style="width: 100%; max-width: 400px;" />
-
----
-
-<!-- Che779 section -->
-<h3>🎮 Che779 — J2ME game emulator (v1.3.0):</h3>
-
-<p>
-  <b>Che779</b> runs Java (J2ME) games on <b>Windows, Linux and Android</b>, with multi-tab play, per-tab proxy, synchronized input and RAM cleanup. Based on MicroEmulator 3.0.0 and J2ME Loader 1.8.2. Four repositories, one per platform; every release ships a <code>SHA256SUMS.txt</code>.
-</p>
+<p><b>Che779</b> runs Java (J2ME) games on <b>Windows, Linux and Android</b>, with multi-tab play, per-tab proxy, synchronized input and RAM cleanup. Based on MicroEmulator 3.0.0 and J2ME Loader 1.8.2. Four repositories, one per platform; every release ships a <code>SHA256SUMS.txt</code>.</p>
 
 <table>
   <tr><th>#</th><th>Repository</th><th>Platform</th><th>What you get</th></tr>
@@ -234,100 +41,183 @@
   <tr><td>4</td><td><a href="https://github.com/Kidtomboy/Che779-Android">Che779-Android</a></td><td>Android</td><td>APK, clone APK, and a Termux script for V2</td></tr>
 </table>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <a href="https://github.com/Kidtomboy/Che779-Emulator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&theme=github_dark" alt="Che779-Emulator">
-  </a>
-  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&theme=github_dark" alt="Che779-EmulatorV2">
-  </a>
-  <a href="https://github.com/Kidtomboy/Che779-Linux">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&theme=github_dark" alt="Che779-Linux">
-  </a>
-  <a href="https://github.com/Kidtomboy/Che779-Android">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&theme=github_dark" alt="Che779-Android">
-  </a>
-</div>
-
----
-
-<!-- Featured Projects section -->
-<h3>🚀 Featured Projects:</h3>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <a href="https://github.com/Kidtomboy/anisub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&theme=github_dark" alt="Anisub">
-  </a>
-  <a href="https://github.com/Kidtomboy/comicsub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&theme=github_dark" alt="Comicsub">
-  </a>
-  <a href="https://github.com/Kidtomboy/musicsub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&theme=github_dark" alt="Musicsub">
-  </a>
-  <a href="https://github.com/Kidtomboy/taihensub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&theme=github_dark" alt="Taihensub">
-  </a>
-</div>
-
----
-
-<!-- Support Me section -->
-<h3>💖 Support Me:</h3>
-
-<!-- A small thank you if someone donates to support me -->
-<p style="font-size: 16px; text-align: center;">
-  If you like what I do and would like to support me, you can donate through the following platforms:
+<p align="center">
+  <a href="https://github.com/Kidtomboy/Che779-Emulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Emulator"></a>
+  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-EmulatorV2"></a>
+  <a href="https://github.com/Kidtomboy/Che779-Linux"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Linux"></a>
+  <a href="https://github.com/Kidtomboy/Che779-Android"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Android"></a>
 </p>
 
-<table>
+---
+
+<h3>💻 Favorite technologies</h3>
+
+<table align="center">
   <tr>
-    <td>
-        <!-- Column one -->
-      <a href="https://streamlabs.com/kidtomboy">
-        <img src="https://img.shields.io/badge/Donate-Streamlabs-%2300C2A3?logo=streamlabs&logoColor=white" alt="Donate via Streamlabs">
-      </a><br>
-      <a href="https://www.paypal.com/">
-        <img src="https://img.shields.io/badge/Donate-PayPal-%231877F2?logo=paypal&logoColor=white" alt="Donate via PayPal">
-      </a><br>
-      <a href="https://www.patreon.com/">
-        <img src="https://img.shields.io/badge/Donate-Patreon-%23FF424D?logo=patreon&logoColor=white" alt="Donate via Patreon">
-      </a><br>
-      <a href="https://ko-fi.com/">
-        <img src="https://img.shields.io/badge/Donate-Ko--fi-%23FF5D5B?logo=kofi&logoColor=white" alt="Donate via Ko-fi">
-      </a>
+    <td align="center" width="50%">
+      <h4>Programming languages</h4>
+      <img src="https://skillicons.dev/icons?i=c,cs,cpp,js,ts" alt="Programming languages" /><br>
+      <img src="https://skillicons.dev/icons?i=java,python,php,bash,html" alt="Programming languages" />
     </td>
-    <td>
-        <!-- Column two -->
-      <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/images/bank/BIDV_Kidtomboy.jpg">
-        <img src="https://img.shields.io/badge/Donate-BIDV-%23E30613?logo=bank&logoColor=white" alt="Donate via BIDV">
-      </a><br>
-      <a href="https://playerduo.net/Kidtomboyreal">
-        <img src="https://img.shields.io/badge/Donate-PlayerDuo-%232E9B57?logo=play&logoColor=white" alt="Donate via PlayerDuo">
-      </a><br>
-      <a href="https://me.momo.vn/Kidtomboy">
-        <img src="https://img.shields.io/badge/Donate-Momo-%23FF6F00?logo=momo&logoColor=white" alt="Donate via Momo">
-      </a><br>
-      <a href="https://wescan.com/">
-        <img src="https://img.shields.io/badge/Donate-Wescan-%23F48FB1?logo=wescan&logoColor=white" alt="Donate via Wescan">
-      </a>
+    <td align="center" width="50%">
+      <h4>Frameworks and libraries</h4>
+      <img src="https://skillicons.dev/icons?i=nodejs,discordjs,nextjs,bootstrap,dotnet" alt="Frameworks and libraries" /><br>
+      <img src="https://skillicons.dev/icons?i=css,lua,react,vue,angular" alt="Frameworks and libraries" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h4>Tools and applications</h4>
+      <img src="https://skillicons.dev/icons?i=github,git,npm,docker,yarn" alt="Tools and applications" />
+    </td>
+    <td align="center" width="50%">
+      <h4>Databases</h4>
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,postgresql,gcp" alt="Databases" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h4>Development tools</h4>
+      <img src="https://skillicons.dev/icons?i=vscode,neovim,sublime,pycharm,webstorm" alt="Development tools" />
+    </td>
+    <td align="center" width="50%">
+      <h4>Operating systems</h4>
+      <img src="https://skillicons.dev/icons?i=windows,kali,arch,debian,ubuntu" alt="Operating systems" />
     </td>
   </tr>
 </table>
 
 ---
 
-<!-- Select language to read README -->
-<h3>🌐 Choose language</h3>
+<h3>🌐 Social media</h3>
 
-<img src="https://img.icons8.com/color/24/vietnam.png" alt="Vietnam Flag" width="20"/> [Read the Vietnamese version here!](README_vi.md)
-<br>
-<img src="https://img.icons8.com/color/24/usa.png" alt="USA Flag" width="20"/> [Read the English version here!](README.md)
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://bento.me/Kidtomboy"><img src="https://img.shields.io/badge/Bento-%23FF5B00.svg?logo=bento&logoColor=white" alt="Bento"></a><br>
+      <a href="https://linkedin.com/in/Kidtomboy"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=Linkedin&logoColor=white" alt="LinkedIn"></a><br>
+      <a href="https://t.me/KidtomboyReal"><img src="https://img.shields.io/badge/Telegram-%23007BFF.svg?logo=telegram&logoColor=white" alt="Telegram"></a>
+    </td>
+    <td>
+      <a href="https://kidtomboy.blogspot.com/"><img src="https://img.shields.io/badge/Blogger-%23FF5722.svg?logo=blogger&logoColor=white" alt="Blogger"></a><br>
+      <a href="https://pinterest.com/Kidtomboy"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white" alt="Pinterest"></a><br>
+      <a href="https://tiktok.com/@Kidtomboy"><img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok"></a>
+    </td>
+    <td>
+      <a href="https://discord.gg/cM8eE93S7M"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" alt="Discord"></a><br>
+      <a href="https://reddit.com/user/Kidtomboy"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white" alt="Reddit"></a><br>
+      <a href="https://twitch.tv/Kidtomboy"><img src="https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white" alt="Twitch"></a>
+    </td>
+    <td>
+      <a href="https://facebook.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"></a><br>
+      <a href="https://soundcloud.com/kidtomboy"><img src="https://img.shields.io/badge/SoundCloud-%23FF3300.svg?logo=soundcloud&logoColor=white" alt="SoundCloud"></a><br>
+      <a href="https://twitter.com/Kidtomboy"><img src="https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white" alt="X"></a>
+    </td>
+    <td>
+      <a href="https://instagram.com/Kidtomboy.Official"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"></a><br>
+      <a href="https://spotify.com/user/31wbafanj3s3hxdxlaiyezqrbgei"><img src="https://img.shields.io/badge/Spotify-%231DB954.svg?logo=spotify&logoColor=white" alt="Spotify"></a><br>
+      <a href="https://wa.me/0387831869"><img src="https://img.shields.io/badge/WhatsApp-%2304B400.svg?logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+    </td>
+    <td>
+      <a href="https://linktr.ee/Kidtomboy"><img src="https://img.shields.io/badge/Linktree-%231A5B8B.svg?logo=linktree&logoColor=white" alt="Linktree"></a><br>
+      <a href="https://steamcommunity.com/id/Kidtomboy"><img src="https://img.shields.io/badge/Steam-%23000000.svg?logo=steam&logoColor=white" alt="Steam"></a><br>
+      <a href="https://youtube.com/@Kidtomboy"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white" alt="YouTube"></a>
+    </td>
+  </tr>
+</table>
+
+<p><sub>⚠️ P/s: a few platforms are left out on purpose — too many links get confusing, and some people impersonate me. HAHA xD!!!</sub></p>
 
 ---
 
-<!-- Footer -->
-<p align="center" style="font-family: 'Arial', sans-serif;">
-  <i>Made by me</i> ❤️<b>Kidtomboy</b> 🍒 <b>Cherry</b> 🌸
+<h3>🥇 GitHub achievements</h3>
+
+<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=Kidtomboy&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub trophies" /></p>
+
+---
+
+<h3>📊 GitHub statistics</h3>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" width="100%" /><br/>
+      <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=Kidtomboy&theme=midnight-purple&hide_border=false" width="100%" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&hide_border=false&include_all_commits=false&count_private=false&layout=compact&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" width="100%" /><br/>
+      <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/main/metrics/metrics.svg" width="100%" />
+    </td>
+  </tr>
+</table>
+
+---
+
+<h3>👀 Views count</h3>
+
+<p>Thank you for visiting my profile! Every view is an encouragement for me to keep creating and learning. 💛</p>
+
+<p align="center"><img src="https://count.getloli.com/@Kidtomboy?name=Kidtomboy&padding=7&offset=0&align=center&scale=2&pixelated=1&darkmode=1" alt="Views Count" /></p>
+
+<h3>🌸 The snake eating my contributions</h3>
+
+<p>Each filled square is a drop of sweat on my learning journey. If you have contributions too, share your GitHub link — I would be happy to visit! 🌟</p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/output/github-contribution-grid-snake-dark.svg" alt="Snake" /></p>
+
+<h3>📈 My activity graph</h3>
+
+<p>A snapshot of my daily activity and progress, one commit at a time. Let’s build something amazing together! 🚀</p>
+
+<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Kidtomboy&theme=github-dark&color=ff86ad&line=e8467c&point=ffffff" alt="Activity graph" /></p>
+
+<h3>😹 Sarcastic quotes about programming</h3>
+
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&color=E8467C&center=true&vCenter=true&width=600&height=110&duration=4000&lines=It+works+%E2%80%A6+on+my+machine;It%E2%80%99s+not+a+bug;It%E2%80%99s+an+undocumented+feature" alt="Quote" /></p>
+
+---
+
+<h3>🚀 More projects</h3>
+
+<p align="center">
+  <a href="https://github.com/Kidtomboy/anisub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="anisub"></a>
+  <a href="https://github.com/Kidtomboy/comicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="comicsub"></a>
+  <a href="https://github.com/Kidtomboy/musicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="musicsub"></a>
+  <a href="https://github.com/Kidtomboy/taihensub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="taihensub"></a>
 </p>
 
-<!-- Cherry 🍒 -->
+---
+
+<h3>💖 Support me</h3>
+
+<p>If you like what I do and would like to support me, you can donate through:</p>
+
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://streamlabs.com/kidtomboy"><img src="https://img.shields.io/badge/Donate-Streamlabs-%2300C2A3?logo=streamlabs&logoColor=white" alt="Donate via Streamlabs"></a><br>
+      <a href="https://www.paypal.com/"><img src="https://img.shields.io/badge/Donate-PayPal-%231877F2?logo=paypal&logoColor=white" alt="Donate via PayPal"></a><br>
+      <a href="https://www.patreon.com/"><img src="https://img.shields.io/badge/Donate-Patreon-%23FF424D?logo=patreon&logoColor=white" alt="Donate via Patreon"></a><br>
+      <a href="https://ko-fi.com/"><img src="https://img.shields.io/badge/Donate-Ko--fi-%23FF5D5B?logo=kofi&logoColor=white" alt="Donate via Ko-fi"></a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/images/bank/BIDV_Kidtomboy.jpg"><img src="https://img.shields.io/badge/Donate-BIDV-%23E30613?logo=bank&logoColor=white" alt="Donate via BIDV"></a><br>
+      <a href="https://playerduo.net/Kidtomboyreal"><img src="https://img.shields.io/badge/Donate-PlayerDuo-%232E9B57?logo=play&logoColor=white" alt="Donate via PlayerDuo"></a><br>
+      <a href="https://me.momo.vn/Kidtomboy"><img src="https://img.shields.io/badge/Donate-Momo-%23FF6F00?logo=momo&logoColor=white" alt="Donate via Momo"></a><br>
+      <a href="https://wescan.com/"><img src="https://img.shields.io/badge/Donate-Wescan-%23F48FB1?logo=wescan&logoColor=white" alt="Donate via Wescan"></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h3>🌐 Choose language</h3>
+
+<img src="https://img.icons8.com/color/24/vietnam.png" alt="Vietnam" width="20"/> [Read the Vietnamese version here!](README_vi.md)
+<br>
+<img src="https://img.icons8.com/color/24/usa.png" alt="USA" width="20"/> [Read the English version here!](README.md)
+
+---
+
+<p align="center"><i>Made by me</i> ❤️ <b>Kidtomboy</b> 🍒 <b>Cherry</b> 🌸</p>
