@@ -1,14 +1,14 @@
-<h1 align="center">🍒 Chào mừng đến với trang GitHub của mình 🍒</h1>
+<h1 align="center">&gt;_ Chào mừng đến với trang GitHub của mình</h1>
 
 <p align="center"><a href="https://bento.me/Kidtomboy"><img src="https://i.imgur.com/8GleZgS.jpeg" alt="Cover" /></a></p>
 
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=2500&size=30&pause=1000&color=E8467C&center=true&vCenter=true&width=900&height=50&lines=Xin+ch%C3%A0o+m%E1%BB%8Di+ng%C6%B0%E1%BB%9Di+%5E%5E+Ch%C3%A0o+m%E1%BB%ABng+%C4%91%E1%BA%BFn+GitHub+c%E1%BB%A7a+m%C3%ACnh;M%C3%ACnh+l%C3%A0+Kidtomboy+%5E%5E+T%C3%AAn+%C4%91%E1%BA%A7y+%C4%91%E1%BB%A7+l%C3%A0+%C4%90%E1%BB%97+%C4%90%C3%ACnh+Hi%E1%BA%BFu;Bi%E1%BB%87t+danh+c%E1%BB%A7a+m%C3%ACnh+l%C3%A0+Cherry+%F0%9F%8D%92" alt="Typing SVG" /></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=00FF9C&center=true&vCenter=true&width=900&height=50&lines=Xin+ch%C3%A0o+m%E1%BB%8Di+ng%C6%B0%E1%BB%9Di+%5E%5E+Ch%C3%A0o+m%E1%BB%ABng+%C4%91%E1%BA%BFn+GitHub+c%E1%BB%A7a+m%C3%ACnh;M%C3%ACnh+l%C3%A0+Kidtomboy+%5E%5E+T%C3%AAn+%C4%91%E1%BA%A7y+%C4%91%E1%BB%A7+l%C3%A0+%C4%90%E1%BB%97+%C4%90%C3%ACnh+Hi%E1%BA%BFu;Bi%E1%BB%87t+danh+l%C3%A0+Cherry+%7C+An+ninh+m%E1%BA%A1ng+%26+Ph%E1%BA%A7n+m%E1%BB%81m" alt="Typing SVG" /></p>
 
-<h3 align="center">Biệt danh của mình là <b>Cherry</b> — ngọt ngào và đầy sức sống, đúng không? 🌸</h3>
+<h3 align="center">Biệt danh của mình là <b>Cherry</b> — hay <code>Kidtomboy</code> 👾</h3>
 
 ---
 
-<h3>🌷 Về mình</h3>
+<h3>👾 Về mình</h3>
 <p><b>Lập trình viên · Nghiên cứu An ninh mạng · Nghiên cứu Phần mềm</b></p>
 <ul>
   <li>🌍 Đang sống và làm việc ở <b>Hải Phòng, Việt Nam</b>, nơi mình tìm thấy vô vàn cảm hứng.</li>
@@ -42,10 +42,10 @@
 </table>
 
 <p align="center">
-  <a href="https://github.com/Kidtomboy/Che779-Emulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Emulator"></a>
-  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-EmulatorV2"></a>
-  <a href="https://github.com/Kidtomboy/Che779-Linux"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Linux"></a>
-  <a href="https://github.com/Kidtomboy/Che779-Android"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="Che779-Android"></a>
+  <a href="https://github.com/Kidtomboy/Che779-Emulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="Che779-Emulator"></a>
+  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="Che779-EmulatorV2"></a>
+  <a href="https://github.com/Kidtomboy/Che779-Linux"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="Che779-Linux"></a>
+  <a href="https://github.com/Kidtomboy/Che779-Android"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="Che779-Android"></a>
 </p>
 
 ---
@@ -141,9 +141,9 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" width="100%" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Kidtomboy&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" width="100%" /><br/>
       <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=Kidtomboy&theme=midnight-purple&hide_border=false" width="100%" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&hide_border=false&include_all_commits=false&count_private=false&layout=compact&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" width="100%" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kidtomboy&hide_border=false&include_all_commits=false&count_private=false&layout=compact&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" width="100%" /><br/>
       <img src="https://github-contributor-stats.vercel.app/api?username=Kidtomboy&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true" width="100%" />
     </td>
     <td align="center" width="50%">
@@ -160,7 +160,7 @@
 
 <p align="center"><img src="https://count.getloli.com/@Kidtomboy?name=Kidtomboy&padding=7&offset=0&align=center&scale=2&pixelated=1&darkmode=1" alt="Views Count" /></p>
 
-<h3>🌸 Chú rắn ăn đóng góp của mình</h3>
+<h3>🐍 Chú rắn ăn đóng góp của mình</h3>
 
 <p>Mỗi ô được tô là một giọt mồ hôi trên hành trình học tập. Nếu bạn cũng có đóng góp, hãy gửi link GitHub — mình rất vui được ghé thăm! 🌟</p>
 
@@ -170,21 +170,21 @@
 
 <p>Ảnh chụp hoạt động và tiến bộ mỗi ngày, từng commit một. Cùng nhau xây dựng điều tuyệt vời nhé! 🚀</p>
 
-<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Kidtomboy&theme=github-dark&color=ff86ad&line=e8467c&point=ffffff" alt="Activity graph" /></p>
+<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Kidtomboy&theme=github-dark&color=00ff9c&line=00ff9c&point=ffffff&bg_color=0a1014&title_color=00ff9c" alt="Activity graph" /></p>
 
 <h3>😹 Câu nói mỉa mai về lập trình</h3>
 
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&color=E8467C&center=true&vCenter=true&width=600&height=110&duration=4000&lines=It+works+%E2%80%A6+on+my+machine;It%E2%80%99s+not+a+bug;It%E2%80%99s+an+undocumented+feature" alt="Quote" /></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=26&color=00FF9C&center=true&vCenter=true&width=600&height=110&duration=4000&lines=It+works+%E2%80%A6+on+my+machine;It%E2%80%99s+not+a+bug;It%E2%80%99s+an+undocumented+feature" alt="Quote" /></p>
 
 ---
 
 <h3>🚀 Các dự án khác</h3>
 
 <p align="center">
-  <a href="https://github.com/Kidtomboy/anisub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="anisub"></a>
-  <a href="https://github.com/Kidtomboy/comicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="comicsub"></a>
-  <a href="https://github.com/Kidtomboy/musicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="musicsub"></a>
-  <a href="https://github.com/Kidtomboy/taihensub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&title_color=E8467C&text_color=7D5566&bg_color=FFF6F8&icon_color=E8467C&border_color=F7D4DF" alt="taihensub"></a>
+  <a href="https://github.com/Kidtomboy/anisub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=anisub&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="anisub"></a>
+  <a href="https://github.com/Kidtomboy/comicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=comicsub&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="comicsub"></a>
+  <a href="https://github.com/Kidtomboy/musicsub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=musicsub&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="musicsub"></a>
+  <a href="https://github.com/Kidtomboy/taihensub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=taihensub&title_color=00FF9C&text_color=C9D1D9&bg_color=0A1014&icon_color=00FF9C&border_color=16352D" alt="taihensub"></a>
 </p>
 
 ---
@@ -220,4 +220,4 @@
 
 ---
 
-<p align="center"><i>Tạo bởi</i> ❤️ <b>Kidtomboy</b> 🍒 <b>Cherry</b> 🌸</p>
+<p align="center"><i>Tạo bởi</i> ❤️ <b>Kidtomboy</b> 🍒 <b>Cherry</b> ⚡</p>
