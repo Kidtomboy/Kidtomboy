@@ -219,6 +219,38 @@
 
 ---
 
+<!-- Che779 section -->
+<h3>🎮 Che779 — J2ME game emulator (v1.3.0):</h3>
+
+<p>
+  <b>Che779</b> runs Java (J2ME) games on <b>Windows, Linux and Android</b>, with multi-tab play, per-tab proxy, synchronized input and RAM cleanup. Based on MicroEmulator 3.0.0 and J2ME Loader 1.8.2. Four repositories, one per platform; every release ships a <code>SHA256SUMS.txt</code>.
+</p>
+
+<table>
+  <tr><th>#</th><th>Repository</th><th>Platform</th><th>What you get</th></tr>
+  <tr><td>1</td><td><a href="https://github.com/Kidtomboy/Che779-Emulator">Che779-Emulator</a></td><td>Windows</td><td>Emulator V1 + Remoter: one window per game, controlled from one place</td></tr>
+  <tr><td>2</td><td><a href="https://github.com/Kidtomboy/Che779-EmulatorV2">Che779-EmulatorV2</a></td><td>Windows</td><td>Emulator V2: many tabs in a single window</td></tr>
+  <tr><td>3</td><td><a href="https://github.com/Kidtomboy/Che779-Linux">Che779-Linux</a></td><td>Linux</td><td><code>.deb</code> / <code>.tar.gz</code>: V2 + V1 + Remoter Linux</td></tr>
+  <tr><td>4</td><td><a href="https://github.com/Kidtomboy/Che779-Android">Che779-Android</a></td><td>Android</td><td>APK, clone APK, and a Termux script for V2</td></tr>
+</table>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <a href="https://github.com/Kidtomboy/Che779-Emulator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&theme=github_dark" alt="Che779-Emulator">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&theme=github_dark" alt="Che779-EmulatorV2">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-Linux">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&theme=github_dark" alt="Che779-Linux">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-Android">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&theme=github_dark" alt="Che779-Android">
+  </a>
+</div>
+
+---
+
 <!-- Featured Projects section -->
 <h3>🚀 Featured Projects:</h3>
 

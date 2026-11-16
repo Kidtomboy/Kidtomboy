@@ -219,6 +219,38 @@
 
 ---
 
+<!-- Che779 section -->
+<h3>🎮 Che779 — giả lập game J2ME (v1.3.0):</h3>
+
+<p>
+  <b>Che779</b> chạy game Java (J2ME) trên <b>Windows, Linux và Android</b>: nhiều tab, proxy theo tab, đồng bộ thao tác, dọn RAM. Dựa trên MicroEmulator 3.0.0 và J2ME Loader 1.8.2. Bốn repo, mỗi nền tảng một repo; mỗi bản phát hành có kèm <code>SHA256SUMS.txt</code>.
+</p>
+
+<table>
+  <tr><th>#</th><th>Repo</th><th>Nền tảng</th><th>Có gì</th></tr>
+  <tr><td>1</td><td><a href="https://github.com/Kidtomboy/Che779-Emulator">Che779-Emulator</a></td><td>Windows</td><td>Emulator V1 + Remoter: mỗi game một cửa sổ, điều khiển tập trung</td></tr>
+  <tr><td>2</td><td><a href="https://github.com/Kidtomboy/Che779-EmulatorV2">Che779-EmulatorV2</a></td><td>Windows</td><td>Emulator V2: nhiều tab trong một cửa sổ</td></tr>
+  <tr><td>3</td><td><a href="https://github.com/Kidtomboy/Che779-Linux">Che779-Linux</a></td><td>Linux</td><td><code>.deb</code> / <code>.tar.gz</code>: V2 + V1 + Remoter Linux</td></tr>
+  <tr><td>4</td><td><a href="https://github.com/Kidtomboy/Che779-Android">Che779-Android</a></td><td>Android</td><td>APK, APK clone và script Termux chạy V2</td></tr>
+</table>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <a href="https://github.com/Kidtomboy/Che779-Emulator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Emulator&theme=github_dark" alt="Che779-Emulator">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-EmulatorV2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-EmulatorV2&theme=github_dark" alt="Che779-EmulatorV2">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-Linux">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Linux&theme=github_dark" alt="Che779-Linux">
+  </a>
+  <a href="https://github.com/Kidtomboy/Che779-Android">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidtomboy&repo=Che779-Android&theme=github_dark" alt="Che779-Android">
+  </a>
+</div>
+
+---
+
 <!-- Phần Dự án nổi bật -->
 <h3>🚀 Dự án nổi bật:</h3>
 
